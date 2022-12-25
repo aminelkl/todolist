@@ -9,7 +9,7 @@
 
 ## Tech Stack
 
-html / css / javascript
+html - css - javascript
 
 ## Authors
 
