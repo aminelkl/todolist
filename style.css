@@ -1,0 +1,224 @@
+body {
+    background-image: url("background.jpg");
+    font-family: 'Oswald', sans-serif;
+}
+
+.page {
+
+
+}
+
+.upper {
+text-align: center;
+font-size: 30px;
+width: 50%;
+height: 10rem;
+margin: auto;
+display: flex;
+align-items: center; 
+justify-content: center;
+color: rgb(86, 84, 84);
+
+}
+
+.task-grid {
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+.task-list-name {
+    text-align: center;
+    font-size: 36px;
+    color: rgb(65, 62, 62);
+}
+
+.task-list {
+order: 2;
+height: 600px;
+width: 500px;
+border-radius: 15px;
+background: rgba(253, 253, 253, 0.529);
+transition: transform 300ms;
+box-shadow: 1px 3px 22px -2px #545353;
+display: flex;
+flex-direction: column;
+align-items: center; 
+color: rgb(65, 62, 62);
+
+}
+
+.task-list:hover {
+    transform: scale(1.03);
+}
+
+.center1 {
+    font-size:26px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.list-list-name {
+    text-align: center;
+    font-size: 36px;
+    color: rgb(65, 62, 62);
+}
+
+.all-list {
+order: 1;
+width: 500px;
+border-radius: 15px;
+background: rgba(253, 253, 253, 0.529);
+transition: transform 300ms;
+box-shadow: 1px 3px 22px -2px #545353;
+display: flex;
+flex-direction: column;
+align-items: center; 
+color: rgb(65, 62, 62);
+}
+
+.all-list:hover {
+    transform: scale(1.03);
+}
+
+.center2 {
+    font-size:26px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+#input-list, #input-task {
+    color: inherit;
+    padding:4px; 
+    padding-left: 10px;
+    font-size:21px; 
+    text-align:left; 
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 3px solid rgb(65, 62, 62);
+    background: transparent;
+    outline: none;
+}
+
+.bt1, .bt2 {
+    font-size: 35px;
+    border: 0px solid;
+    background: transparent;
+    color: rgb(65, 62, 62);
+}
+
+.bt1:hover {
+    transform: scale(1.2);
+}
+
+.bt2:hover {
+    transform: scale(1.2);
+}
+
+::placeholder {
+    color:rgb(0, 0, 0);
+}
+
+.edit {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+    align-items: center;
+}
+
+.edit-btt {
+    font-size: 22px;
+    width: 160px;
+    border-radius: 10px;
+    background: transparent;
+    padding: 7px;
+}
+
+#delete {
+    background-color: rgba(248, 124, 113, 0.555);
+    font-weight: 545;
+    color: rgb(34, 34, 34);
+    border-color: transparent;
+    box-shadow: 5px 5px 20px 1px #212121;
+}
+#delete:hover {
+    transform: scale(1.05);
+}
+
+#clear {
+    background-color: rgba(255, 255, 255, 0.555);
+    color: rgb(34, 34, 34);
+    border-color: transparent;
+    box-shadow: 5px 5px 20px 1px #212121;
+}
+#clear:hover {
+    transform: scale(1.05);
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#logo {
+    margin: 20px;
+    margin-top: 0px;
+    width: 100px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    color: white;
+}
+
+#git {
+    width: 70px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container label {
+    cursor: pointer;
+    display: flex;
+}
+
+.checkbox-container input[type='checkbox'] {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-container label::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 2px solid ;
+    margin-right: 8px;
+    margin-top:11px;
+    border-radius: 20px;
+}
+
+.checkbox-container label:hover::before,
+.checkbox-container input[type='checkbox']:hover + label::before{
+    background-color: rgb(48, 78, 122);
+}
+
+.checkbox-container input[type='checkbox']:focus + label::before {
+    box-shadow: 0 0 5px black;
+}
+
+.checkbox-container input[type='checkbox']:checked + label::before {
+    background-color: rgb(48, 78, 122);
+}
+
+.list-name:hover {
+    color: rgb(82, 121, 179);
+    transform: scale(1.005);
+}
