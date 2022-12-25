@@ -4,7 +4,7 @@
 **Description :** 
 This is a simple to-do list web application. Here are the different features:
 
-You can have multiple lists, each list with its own tasks.
+- You can have multiple lists, each list with its own tasks.
 - When the maximum amount of tasks or lists is reached, a warning message is displayed.
 - The first letter of all input is capitalized.
 - A delete button that deletes the selected list.
